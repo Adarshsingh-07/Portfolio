@@ -1,10 +1,10 @@
 import React from 'react';
 import { CONTACT } from '../constants';
 import { motion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
+
 
 function Contact() {
-  const navigate = useNavigate(); // Initialize navigation
+   // Initialize navigation
 
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -34,11 +34,14 @@ function Contact() {
           {CONTACT.phoneNo}
         </motion.p>
         {/* Use button to navigate */}
-        <button
-          className="border-b text-blue-400 hover:text-blue-600 transition"
+        <motion.p
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: 100 }}
+          transition={{ duration: 1 }}
+          className="my-4"
         >
           {CONTACT.email}
-        </button>
+        </motion.p>
       </div>
     </div>
   );
