@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Project1 from "../assets/projects/Project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project3.png";
@@ -43,25 +44,28 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     image: Project1,
     description:
-      "A  functional e-commerce website with features like product listing, shopping cart.",
+      "A functional e-commerce website with features like product listing, shopping cart.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Adarshsingh-07/E-Commerce"
   },
   {
     title: "Tic Tac Toe game App",
     image: project2,
     description:
-      "An two player game known as Tic Tac Toe following all rules and fair play.",
+      "A two player game known as Tic Tac Toe following all rules and fair play.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Adarshsingh-07/Tic-Tac-Toe",
+    link: "https://adarshsingh-07.github.io/Tic-Tac-Toe/"
   },
   {
     title: "Stone Paper Scissor",
     image: project3,
-    description:
-      "A single player game against computer",
+    description: "A single player game against computer",
     technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Adarshsingh-07/Stone-Paper-Scissor"
   }
- 
 ];
+
 
 export const CONTACT = {
   address: "Kaikhali, KOLKATA, 700052",

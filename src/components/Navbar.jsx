@@ -1,12 +1,16 @@
 import React from 'react'
-import Ak from "../assets/Ak.jpg"
+// import Ak from "../assets/Ak.jpg"
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 function Navbar() {
   return <nav className='mb-20 flex items-center justify-between py-6' >
     <div className='flex flex-shrink-0 items-center'>
-        <img className='mx-0 w-14' src={Ak} alt="Ak" />
+    <span>
+      <h1 className="text-3xl font-bold text-blue-200 tracking-wide italic drop-shadow-lg">
+        Adarsh
+      </h1>
+    </span>
     </div>
     <div className='m-8 flex items-center justify-center gap-4 text-2xl '>
       
