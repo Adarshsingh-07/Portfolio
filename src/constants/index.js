@@ -54,15 +54,15 @@ export const PROJECTS = [
     description:
       "A two player game known as Tic Tac Toe following all rules and fair play.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Adarshsingh-07/Tic-Tac-Toe",
-    link: "https://adarshsingh-07.github.io/Tic-Tac-Toe/"
+    github: "https://adarshsingh-07.github.io/Tic-Tac-Toe/",
+    
   },
   {
     title: "Stone Paper Scissor",
     image: project3,
     description: "A single player game against computer",
     technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Adarshsingh-07/Stone-Paper-Scissor"
+    github: "https://adarshsingh-07.github.io/Game_SPS/"
   }
 ];
 
